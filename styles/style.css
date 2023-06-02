@@ -1,0 +1,26 @@
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #0174D1;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #3EBEFD;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+}
