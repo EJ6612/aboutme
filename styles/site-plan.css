@@ -67,6 +67,20 @@ p {
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
+
+table {
+  width: 100%;
+}
+
+th {
+  min-width: 120px;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;  
+}
+
 .colors {
   width: 100%;
   min-width: 350px;
