@@ -1,9 +1,9 @@
 // Array of image URLs
 var imageUrls = [
-    "images/signatures/sign_blue.png",
-    "images/signatures/sign_red.png",
-    "images/signatures/sign_purple.png",
-    "images/signatures/sign_black.png"
+    "../images/signatures/sign_blue.png",
+    "../images/signatures/sign_red.png",
+    "../images/signatures/sign_purple.png",
+    "../images/signatures/sign_black.png"
     // Add more image URLs here
 ];
 
