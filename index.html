@@ -6,20 +6,295 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="styles/style.css" >
     <title>Elijah Dodge</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/images/icons/face_icon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icons/face_icon.ico">
 </head>
 <body>
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/signature_new_logo_black.png" alt="site logo">
-        </a>
-        <nav>
+        <div id="navbar">
             <a href="index.html">Home</a>
-            <a href="https://ej6612.github.io/easequations/" target="_blank">Projects</a>
-            <a href="contact.html">Contact</a>
-            <a href="contact.html">Education</a>
-            <a href="site-plan.html">Site Plan</a>
-        </nav>
+            <a href="projects/index.html">Projects</a>
+            <a href="contact/index.html">Contact</a>
+            <a href="siteplan/index.html">Site Plan</a>
+          </div>
+          <script src="scripts/sticky_navbar.js"></script>
     </header>
+
+    <main>
+            <!-- ------------------------Steps 2-3------------------------------ -->
+            <hr>
+            <h2>Overview</h2>
+            <h3>Purpose</h3>
+            <p>To serve as a portfolio and introducion to who I am and as a landing page to my projects.</p>  <!-- change this -->
+      
+      
+            <h3>Audience</h3>
+            <p>Employers, peers, professors, coworkers, etc.</p>  <!-- change this -->
+      
+            <hr>
+            <h2>Branding</h2>
+            <h3>Website Logo</h3>
+            <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
+            <div>
+              <img id="signlogo" src="images/signatures/sign_blue.png" alt="EJD Signature" width="500">
+              <script src="scripts/random_image.js"></script>
+            </div>
+      
+            <hr>
+            <h2>
+              Style Guide
+            </h2>
+      
+            <!-- ------------------------Steps 4-8------------------------------ -->
+      
+            <h3>
+              Color Palette
+            </h3>
+            <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in iLearn then return and replace the color codes below with the hex color codes (the 6 digit numbers that show at the bottom of each color) for the colors you have chosen below.  You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
+      
+            <!-- Copy and paste the URL to your finished palette below Make sure to paste it into both spots -->
+            Palette URL: <a href="https://coolors.co/1b7ecc-c74444-8f3985-1e1e1e" target="_blank">https://coolors.co/1b7ecc-c74444-8f3985-1e1e1e</a>
+      
+      
+            <table class="colors">
+              <tr><th>Primary</th><th>Secondary</th><th>Accent 1</th><th>Accent 2</th></tr>
+              <!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
+              <tr><td class="primary">[#1B7ECC]</td><td class="secondary">[#C74444]</td><td class="accent1">[#8F3985]</td><td class="accent2">[#1E1E1E]</td></tr>
+            </table>
+      
+            <!-- ------------------------Step 9------------------------------ -->
+      
+            <h3>
+              Typography
+            </h3>
+            <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Why did you choose what you did?  Make sure to review the list of web safe fonts at W3Schools.org as a starting point.  Think also about which of your colors above you might use for background and font colors. -->
+      
+            <h4>
+              Heading Font: Segoe UI  <!-- change this -->
+            </h4>
+            <h4>
+              Paragraph Font: Arial  <!-- change this -->
+            </h4>
+            <h3>
+              Normal paragraph example
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <h3>
+              Colored paragraph example
+            </h3>
+            <p class="colored">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+      
+            <!-- ------------------------Step 10------------------------------ -->
+      
+            <h3>
+              Navigation
+            </h3>
+            <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. --> 
+            <nav>
+              <a href="#">Home</a>
+              <a href="#">Projects</a>
+              <a href="#">Contact</a>
+            </nav>
+            <hr>
+            <h2>
+              Site Map
+            </h2>
+            <div class="sitemap">
+              <div class="sm-home">
+                Home
+              </div>
+              <div class="sm-page2">
+                Projects <!-- change this -->
+              </div>
+              <div class="sm-page3">
+                Contact  <!-- change this -->
+              </div>
+      
+              <div class="top">
+                &nbsp;
+              </div>
+              <div class="left">
+                &nbsp;
+              </div>
+              <div class="right">
+                &nbsp;
+              </div>
+      
+            </div>
+      
+            <!-- --------Content Section -------------- -->
+            <hr>
+            <h2>
+              Content
+            </h2>
+            <h3>Home Page</h3>
+            <h4>Home Page Summary:</h4>
+            <p>
+              The user will be greeted with a navigation banner. The navigation banner will have my logo, and links to my subpages 
+              (projects and contact). Underneath the navi-banner, there will be a current photo of me and a welcome card. As the user 
+              scrolls down, there will be cards of various topics: cards that introduce the user to who I am as a person and my purposes, 
+              cards that introduce the content of the projects subpage (in the which will direct the user to that specific part of the 
+              subpage), and a card that invites the user to contact me (which will direct the user to the contact subpage). The end of the 
+              page will end with a footer, which will have my copyright, link to site plan, and outside links (GitHub, TBD). 
+            </p>
+      
+            <h4>Welcome Card</h4>
+            <p>
+              Technically 2 separate items. On one side (probably the left) will be a up-to-date picture of me. On the other side (probably 
+              the right) will be a card with text. The text will more than likely say “[tbd]”.
+            </p>
+      
+            <h4>Introduction Cards</h4>
+            <p>
+              Introduction cards will have headers that each state something about me, with paragraph text that elaborate on that. Each topic 
+              will have an accompanying icon. Topics: 
+            </p>
+      
+            <table>
+              <tr>
+                <th>Header</th>
+                <th>Elaboration</th>
+              </tr>
+              <tr>
+                <td>Creative</td>
+                <td>I strive to think outside the box to find imaginative and efficient outcomes.</td>
+              </tr>
+              <tr>
+                <td>Fun</td>
+                <td>Uplifting those around me is one of my life goals. It is my personal belief 
+                  that an optimistic attitude is an essential key for success.</td>
+              </tr>
+              <tr>
+                <td>Personal</td>
+                <td>[something about me being a personal person]</td>
+              </tr>
+              <tr>
+                <td>Sociable</td>
+                <td>Being distant is the opposite of who I am. I have found that being a good 
+                  caring friend (with boundaries!) is needed for a good group environment.</td>
+              </tr>
+            </table>
+      
+            <h4>Project Cards</h4>
+            <p>
+              Project cards will introduce the user to the various projects that I have worked on. Each one will have a header, logo (if one 
+              exists), screenshot (if one exists), a short blurb, and a link that leads the user to its place in the projects subpage. Projects: 
+            </p>
+            
+            <table>
+              <tr>
+                <th>Header/Title</th>
+                <th>Blurb</th>
+              </tr>
+              <tr>
+                <td>easEquations</td>
+                <td>Windows math app that serves as my place to learn and apply coding and design principles.</td>
+              </tr>
+              <tr>
+                <td>BYU-I Projects</td>
+                <td>Projects worked on during my time at BYU-Idaho.</td>
+              </tr>
+              <tr>
+                <td>Sno-Isle Tech Projects</td>
+                <td>Game projects worked on during my time at Sno-Isle Tech.</td>
+              </tr>
+            </table>      
+      
+            <h4>Contact Card</h4>
+            <p>
+              Contact card will be very simple. It will have a header stating “Contact Me!”. The card will itself be a button, which leads the 
+              user to the contact subpage. 
+            </p>
+      
+            <h4>Footer</h4>
+            <p>
+              The footer will span the entire bottom of the page. From left to right it will have: 
+              <ul>
+                <li>© 2023 - Elijah Dodge</li>
+                <li>Site Plan Link</li>
+                <li>GitHub logo link (maybe)</li>
+                <li>Microsoft Store logo link (maybe)</li>
+                <li>Site logo</li>
+              </ul>        
+            </p>
+      
+            <h4>Design Language</h4>
+            <p>Navigation Banner: Sticky, slightly rounded corners, drop shadow, is an “island”, primary color.</p>
+            <p>Footer: Sharp corners, simple, secondary color.</p>
+            <p>Cards: Slightly rounded corners, drop shadow, color will vary. Photos in cards will have drop shadows.</p>
+      
+            <h4>Desktop vs. Mobile</h4>
+            <p>Desktop:</p>
+            <ul>
+              <li>Cards will be spread out (style TBD).</li>
+              <li>Navigation banner and footer will stay as previously described.</li>
+              <li>Max-width will be 1400px. 1600px is too wide and spacious for what I am trying to accomplish. Blank sides could potentially 
+                have a hazed-out background.</li>
+            </ul>
+            <p>Mobile:</p>
+            <ul>
+              <li>Cards will be stacked (preferably on top of each other, but if not vertically will be fine).</li>
+              <li>Navigation banner will be sticky and lose the island effect. Sharp corners. I will aim to have the subpage links scrollable, but 
+                if not, I will fall back to the old hamburger menu design. Logo will not be part of the banner, but rather just placed at the top of 
+                the page.</li>
+              <li>Space will be given between cards to allow user space to scroll. </li>
+            </ul>
+      
+            <p>Images for the Home page</p>
+              <img width="300px" src="images/backgrounds/snowflakes_1.JPG" alt="background image">
+              <img width="100px" src="images/face_icon.png" alt="site icon">
+      
+            </ul>
+            <h3>Projects</h3>
+            <p>
+              Projects subpage will inherit most of the design language from the home page. 
+              From top to bottom (this will apply for both desktop and mobile), there will be one card 
+              for each project divided by category. Each card will have a logo, screenshot (if applicable), 
+              description, and link (preferably in the form of an icon).
+            </p>
+            <p>Images for Projects Page</p>
+            <img width="150px" src="projects/images/eEq_bold_squircle.png" alt="easEquations logo">
+            <img width="150px" src="projects/images/ms-store-logo.jpeg" alt="microsoft store logo, copyright Microsoft">
+      
+            </ul>
+            <h3>Contact Me</h3>
+            <p>
+              Contact subpage will inherit most of the design language from the home page.
+              There will be a big card with my current face, email, and social media. 
+            </p>
+            <p>Images for Contact Page</p>
+              <img width="200px" src="contact/images/april-2023-elijah.jpg" alt="most current face">
+              <img width="300px" src="contact/images/lights-bg.JPG" alt="background image">
+      
+            </ul>
+            <hr>
+            <h2>
+              Wireframes
+            </h2>
+            <p>
+              Create three wireframes for your site. One for each page and list them here</p>
+      
+            <h3>Home</h3>
+            <p>         
+              [Any additional details about home that the wireframe does not make clear]
+            </p>
+            <img src="#" alt="home page wireframe">
+            <a href="https://wireframe.cc/IpyU7n" target="_blank">https://wireframe.cc/IpyU7n</a>
+      
+            <h3>[Page 2]</h3>
+            <p>         
+              [Any additional details about page 2 that the wireframe does not make clear]
+            </p>
+            <img src="#" alt="page 2 wireframe">
+      
+            <h3>[Page 3]</h3>
+            <p>         
+              [Any additional details about page 3 that the wireframe does not make clear]
+            </p>
+            <img src="#" alt="page 3 wireframe">
+    </main>
 </body>
 </html>
