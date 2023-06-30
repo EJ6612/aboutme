@@ -32,6 +32,15 @@
         display: none;
     }
 
+    .home-link {
+        display: none;
+        visibility: hidden; 
+    }
+
+    .topnav {
+        margin-left: -2em;
+    }
+
     /*Welcome Card*/
     .welcome-card {
         width: 100%;
