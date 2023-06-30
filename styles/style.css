@@ -1,3 +1,61 @@
+/* General Page */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Welcome Card */
+.welcome-card {
+    width: 100%;
+    grid-column: 2/12;
+    margin-top: 2em;
+}
+
+.welcome-card-content {
+    display: flex;
+}
+
+.welcome-card-photo {
+    border: 1em solid #8F3985;
+    width: 16em;
+    height: 16em;
+    object-fit: cover;
+    border-radius: 0.33em;
+}
+
+.welcome-card-text {
+    margin-left: 2em;
+    background-color: #8F3985;
+    padding: 0.75em 2em;
+    border-radius: 0.33em;
+}
+
+/* Introductions */
+.introduction-cards {
+    width: 100%;
+    grid-column: 0.5/9.5;
+    grid-row: 5/6;
+}
+
+
+
+/* Projects Card (Homepage) */
 #projectsFrame {
     border: none;
 }

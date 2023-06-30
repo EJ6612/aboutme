@@ -1,0 +1,77 @@
+/* Mobile Design */
+@media screen and (max-width: 700px) {
+
+    #main-content {
+        margin: 0 1em;
+    }
+
+    /* Footer */
+
+    footer {
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    footer a {
+        padding: 5px;
+    }
+
+    /* Navigation Bar */
+
+    header {
+        margin: 0.5em 0.5em;
+        grid-template-columns: auto;
+    }
+
+    .navbar-icon {
+        display: inline;
+        width: 2em;
+    }
+
+    .navbar-text {
+        display: none;
+    }
+
+    /*Welcome Card*/
+    .welcome-card {
+        width: 100%;
+    }
+
+    .welcome-card-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-card-photo {
+        border: 1em solid #8F3985;
+        width: 15em;
+        height: 15em;
+        object-fit: cover;
+        border-radius: 0.25em;
+    }
+
+    .welcome-card-text {
+        background-color: transparent;
+        margin-left: 0;
+        padding: 0;
+        border-radius: 0;
+        margin: 0 2em;
+    }
+}
+
+/* Tablet Design */
+@media screen and (min-width: 700px) {
+
+    #main-content {
+        margin: 0 1.5em;
+    }
+
+    header {
+        margin: 0.5em 3.25em;
+    }
+
+    .navbar-icon {
+        display: none;
+    }
+
+}

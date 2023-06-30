@@ -1,0 +1,91 @@
+/* NavBar */
+header {
+    background-color: #1E1E1E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+    border-radius: 15px;
+    padding-right: 16px;
+}
+
+.topnav {
+    background-color: #1E1E1E;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #1B7ECC;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: #1B7ECC;
+    color: white;
+}
+  
+.topnav a.active {
+    background-color: #1B7ECC;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0.5em;
+}
+
+/* Footer */
+footer {
+    background-color: #C74444;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #1E1E1E;
+    text-decoration: none;
+    padding: 15px; 
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.footer-logo {
+    height: 50px;
+}
+
+.footer-site {
+    text-align: center;
+    color: #1E1E1E;
+}

@@ -4,40 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link type="text/css" rel="stylesheet" href="styles/style.css" >
+    <link type="text/css" rel="stylesheet" href="styles/small_screens_style.css" >
+    <link type="text/css" rel="stylesheet" href="styles/nav_footer_styles.css" >
     <title>Elijah Dodge</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/icons/face_icon.ico">
 </head>
 <body>
   <div id="content">
-    <header>
+    <header id="headernav" class="sticky">
         <a id="logo_link" href="index.html">
-            <img class="logo" width="150px" src="images/signatures/sign_black.png" alt="site logo">
+            <img class="logo" src="images/signatures/sign_blue.png" alt="site logo">
         </a>
-
         <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
-            <a href="projects/index.html">Projects</a>
-            <a href="contact/index.html">Contact Me</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="index.html">
+              <img class="navbar-icon" src="images/topnav-icons/home.png" >
+              <span class="navbar-text">Home</span>
+            </a>
+            <a href="projects/index.html">
+              <img class="navbar-icon" src="images/topnav-icons/home.png" >
+              <span class="navbar-text">Projects</span>
+            </a>
+            <a href="contact/index.html">
+              <img class="navbar-icon" src="images/topnav-icons/home.png" >
+              <span class="navbar-text">Contact Me</span>
+            </a>
+            <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>      
                 <script src="scripts/navbar.js"></script>          
-            </a>
-            
+            </a>   -->         
         </div>
     </header>
 
-    <main>
+    <main class="main-content">
       
-      <div>
-        <img width="200px" class="welcome-card-photo" src="contact/images/april-2023-elijah.jpg" alt="most recent good photo of me">
-        <section class="welcome-card">
-          <h1>Say hello to Elijah Dodge!</h1>
-          <p>lorem ipsum blah blah blah blah</p>
-        </section>
-      </div>
-
-      <div>
+      <div class="welcome-card">
+        <div class="welcome-card-content">
+            <img class="welcome-card-photo" src="contact/images/april-2023-elijah.jpg" alt="most recent good photo of me">
+            <div class="welcome-card-text">
+                <h1>Say hello to me!</h1>
+                <p>I am Elijah Dodge. I like programming, socializing, and chocolate milk. 
+                  beans beans beans beans beans beans beans beans beans beans beans beans beans
+                  beans beans beans beans beans beans beans beans beans beans beans beans beans
+                  beans beans beans beans beans beans beans beans beans beans beans beans beans</p>
+            </div>
+        </div>
+    </div>
+<!--
+      <div class="introduction-cards">
         <section class="intro-card">
           <h2>Creative</h2>
           <p>I strive to think outside the box to find imaginative and efficient outcomes.</p>
@@ -77,21 +92,24 @@
       
     <button class="contact-button" src="contact/index.html">Contact Me!</button>
 
-
+    -->
     </main>
 
 
     <footer>
-      <p>&copy; 2023 Elijah Dodge</p>
-      <p><a href="siteplan/index.html">Site Plan</a></p>
+      <div class="footer-site">
+        <p>&copy; 2023 Elijah Dodge</p>
+        <p><a href="siteplan/index.html">Site Plan</a></p>
+      </div>
       <a href="index.html">
-        <img height="50px" src="images/signatures/sign_red.png" alt="home button">
-    </a>      <div class="social">
+        <img class="footer-logo" src="images/signatures/sign_black.png" alt="home button">
+      </a>      
+      <div class="social">
           <a href="https://github.com/EJ6612" target="_blank">
-              <img height="50px" src="projects/images/github-mark.png" alt="github logo">
+              <img src="projects/images/github-mark.png" alt="github logo">
           </a>
-          <a href="https://microsoft.com" target="_blank">
-              <img height="50px" src="projects/images/ms-store-logo.jpeg" alt="microsoft store logo">
+          <a href="https://apps.microsoft.com/store/search?hl=en-us&gl=us&publisher=Puzzled%20Frog" target="_blank">
+              <img src="projects/images/Microsoft_Store_icon.png" alt="microsoft store logo">
           </a>
       </div>
     </footer>
