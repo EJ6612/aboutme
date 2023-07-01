@@ -41,6 +41,11 @@
         margin-left: -2em;
     }
 
+    .topnav a:hover {
+        background-color: white;
+        color: white;
+    }
+
     /*Welcome Card*/
     .welcome-card {
         width: 100%;
@@ -83,4 +88,8 @@
         display: none;
     }
 
+    .topnav a:hover {
+        background-color: #1B7ECC;
+        color: white;
+    }
 }
