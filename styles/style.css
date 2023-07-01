@@ -51,8 +51,8 @@ p {
 .introduction-cards {
     width: 100%;
     grid-column: 2/12;
-    margin-top: 2em;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 2em;     /*   |                                           |     */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .intro-card-text {
@@ -119,5 +119,26 @@ p {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     margin: 1em;
     display: block;
+}
 
+.cm-butt-box {
+    text-align: center;
+    grid-column: 5/9;
+    margin-top: 100px;
+}
+
+.contact-me-home {
+    border-color: transparent;
+    background-color: #8F3985;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.33em;
+    font-family: 'Segoe UI', Arial, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 610;
+    padding: 1em;
+    font-size: 3em;
+}
+
+.contact-me-home:hover {
+    background-color: #1B7ECC;
 }

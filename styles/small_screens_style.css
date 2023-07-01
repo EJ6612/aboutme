@@ -77,6 +77,16 @@
         visibility: hidden;
         display: none;
     }
+
+    .cm-butt-box {
+        text-align: center;
+        grid-column: 4/11;
+        margin-top: 100px;
+    }
+
+    .contact-me-home {
+        font-size: 1.75em;
+    }
 }
 
 /* Tablet Design */
