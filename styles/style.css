@@ -49,8 +49,21 @@ p {
 /* Introductions */
 .introduction-cards {
     width: 100%;
-    grid-column: 0.5/9.5;
-    grid-row: 5/6;
+    grid-column: 2/12;
+    margin-top: 2em;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.intro-card {
+    background-color: #1B7ECC;
+    color: white;
+    padding: 0.25em 1em;
+    margin: 1em auto;
+    width: 45%;
+}
+
+#creative {
+    grid-column: 2/4;
 }
 
 
