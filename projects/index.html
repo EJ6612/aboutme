@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="styles/style.css" >
+    <link type="text/css" rel="stylesheet" href="../styles/style.css" >
+    <link type="text/css" rel="stylesheet" href="../styles/small_screens_style.css" >
+    <link type="text/css" rel="stylesheet" href="../styles/nav_footer_styles.css" >    <title>Elijah Dodge | Contact Me</title>
     <title>Elijah Dodge | Projects</title>
     <link rel="shortcut icon" type="image/x-icon" href="../images/icons/face_icon.ico">
 </head>
 <body>
   <div id="content">
-    <header>
+    <header id="headernav" class="sticky">
         <a id="logo_link" href="../index.html">
-            <img class="logo" width="150px" src="../images/signatures/sign_black.png" alt="site logo">
+            <img class="logo" src="../images/signatures/sign_blue.png" alt="site logo">
         </a>
-
         <div class="topnav" id="myTopnav">
-            <a href="../index.html">Home</a>
-            <a href="../projects/index.html">Projects</a>
-            <a href="../contact/index.html">Contact Me</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>      
-                <script src="../scripts/navbar.js"></script>          
+            <a href="../index.html" class="home-link">
+              <span class="navbar-text">Home</span>
             </a>
-            
+            <a href="../projects/index.html">
+              <img class="navbar-icon" src="../images/topnav-icons/projects.png" alt="projects">
+              <span class="navbar-text">Projects</span>
+            </a>
+            <a href="../contact/index.html">
+              <img class="navbar-icon" src="../images/topnav-icons/contact.png" alt="contact me">
+              <span class="navbar-text">Contact Me</span>
+            </a>      
         </div>
     </header>
 
@@ -119,18 +123,20 @@
     </main>
 
 
-      <footer>
-        <p>&copy; 2023 Elijah Dodge</p>
-        <p><a href="../siteplan/index.html">Site Plan</a></p>
-        <a href="../index.html">
-            <img height="50px" src="../images/signatures/sign_red.png" alt="home button">
-        </a>
+    <footer>
+        <div class="footer-site">
+          <p>&copy; 2023 Elijah Dodge</p>
+          <p><a href="../siteplan/index.html">Site Plan</a></p>
+        </div>
+        <a href="index.html">
+          <img class="footer-logo" src="../images/signatures/sign_black.png" alt="home button">
+        </a>      
         <div class="social">
             <a href="https://github.com/EJ6612" target="_blank">
-                <img height="50px" src="../projects/images/github-mark.png" alt="github logo">
+                <img src="../projects/images/github-mark.png" alt="github logo">
             </a>
-            <a href="https://microsoft.com" target="_blank">
-                <img height="50px" src="../projects/images/ms-store-logo.jpeg" alt="microsoft store logo">
+            <a href="https://apps.microsoft.com/store/search?hl=en-us&gl=us&publisher=Puzzled%20Frog" target="_blank">
+                <img src="../projects/images/Microsoft_Store_icon.png" alt="microsoft store logo">
             </a>
         </div>
       </footer>
