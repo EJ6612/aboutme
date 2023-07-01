@@ -41,57 +41,60 @@
       <div class="welcome-card">
         <div class="welcome-card-content">
             <img class="welcome-card-photo" src="contact/images/april-2023-elijah.jpg" alt="most recent good photo of me">
-            <div class="welcome-card-text">
-                <h1>Say hello to me!</h1>
+            <content class="welcome-card-text">
+                <h1>I am Elijah Dodge</h1>
                 <p>I am Elijah Dodge. I like programming, socializing, and chocolate milk. 
                   beans beans beans beans beans beans beans beans beans beans beans beans beans
                   beans beans beans beans beans beans beans beans beans beans beans beans beans
                   beans beans beans beans beans beans beans beans beans beans beans beans beans</p>
-            </div>
+            </content>
         </div>
       </div>
 
       <div class="introduction-cards">
-        <section class="intro-card" id="creative">
+        <section class="intro-card-text" id="creative">
           <h2>Creative</h2>
           <p>I strive to think outside the box to find imaginative and efficient outcomes.</p>
         </section>
-        <section class="intro-card" id="fun">
+        <section class="intro-card-text" id="fun">
           <h2>Fun</h2>
           <p>Uplifting those around me is one of my life goals. It is my personal belief 
             that an optimistic attitude is an essential key for success.</p>
         </section>
-        <section class="intro-card" id="personal">
+        <section class="intro-card-text" id="personal">
           <h2>Personal</h2>
           <p>[something about me being a personal person]</p>
         </section>
-        <section class="intro-card" id="sociable">
+        <section class="intro-card-text" id="sociable">
           <h2>Sociable</h2>
           <p>Being distant is the opposite of who I am. I have found that being a good 
             caring friend (with boundaries!) is needed for a good group environment.</p>
         </section>
       </div>
-<!--
-      <div>
-        <section class="projects-card">
+
+      <div class="projects-card">
+        <div>
           <h1>Projects</h1>
           <h2></h2>
           <p>See the various projects that I have worked on. Each individual project has 
             taught me important principles that, collectively, have led me to where I am now.
           </p>
-          <div>
-            <button id="prevButton">&larr; Previous</button>
-            <button id="nextButton">Next &rarr;</button>
-            <iframe id="projectsFrame" width="600px" height="500px" src="projects/project-cards/easequations.html" title="testing"></iframe>
+          <section>
+            <button class="project-button" id="prevButton"><img src="images/left-arrow.png" ></button>
+            <iframe id="projectsFrame" src="projects/project-cards/easequations.html"></iframe>
+            <button class="project-button" id="nextButton"><img src="images/right-arrow.png" ></button>
             <script src="scripts/project_frame.js"></script>
           </div>
-          <button src="projects/index.html">Go to Projects Page</button>
+          <div class="gtp">
+            <button class="go-to-projects" src="projects/index.html" onclick="window.location.href='projects/index.html'">Go to Projects Page</button>
+          </div>
         </section>
       </div>     
-      
-    <button class="contact-button" src="contact/index.html">Contact Me!</button>
+    
+      <div class="contact-me-home">
+        <button class="contact-button" src="contact/index.html">Contact Me!</button>
+      </div>
 
-    -->
     </main>
 
 

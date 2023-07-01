@@ -6,7 +6,7 @@ header {
     grid-template-columns: 150px auto;
     border-radius: 15px;
     padding-right: 16px;
-    box-shadow: 0px 2px 20px rgb(20, 20, 20);
+    box-shadow: 0px 2px 15px rgb(22, 22, 22);
 }
 
 .topnav {

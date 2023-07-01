@@ -41,9 +41,10 @@ p {
 
 .welcome-card-text {
     margin-left: 2em;
-    background-color: #8F3985;
+    background-color: #1B7ECC;
     padding: 0.75em 2em;
     border-radius: 0.33em;
+    color: white;
 }
 
 /* Introductions */
@@ -51,24 +52,72 @@ p {
     width: 100%;
     grid-column: 2/12;
     margin-top: 2em;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.intro-card {
+.intro-card-text {
+    margin-left: 2em;
     background-color: #1B7ECC;
-    color: white;
-    padding: 0.25em 1em;
+    padding: 0.25em 1.5em;
+    border-radius: 0.33em;   
     margin: 1em auto;
+    color: white;
     width: 45%;
 }
 
-#creative {
-    grid-column: 2/4;
+/* Projects Card (Homepage) */
+.projects-card {
+    width: 100%;
+    grid-column: 3/11;
+    margin-top: 2em;
+    background-color: #1E1E1E;
+    color: white;
+    padding: 0.25em 1.5em;
+    border-radius: 0.33em;   
+    margin: 1em auto;
 }
 
+.gtp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.projects-card section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
 
-/* Projects Card (Homepage) */
 #projectsFrame {
     border: none;
+    background-color: white;
+    border-radius: 0.33em;
+    height: 500px;
+    width: 750px;
+}
+
+.project-button {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0.33em;
+    text-align: center;
+    margin: 1em 1em;
+}
+
+.go-to-projects {
+    color: white;
+    height: 50px;
+    width: 50%;
+    background-color: #1B7ECC;
+    border-color: transparent;
+    border-radius: 0.33em;
+    text-align: center;
+    font-weight: 605;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    margin: 1em;
+    display: block;
+
 }
