@@ -14,7 +14,6 @@ p {
     grid-template-columns: 10px 1fr 20px 1fr 10px;
     margin-top: 2em;
     margin-bottom: 2em;
-    scrollbar-color: transparent;
 }
 
 .project-screenshot {
