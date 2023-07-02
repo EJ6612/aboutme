@@ -54,8 +54,8 @@
 
     .welcome-card-photo {
         border: 1em solid #8F3985;
-        width: 15em;
-        height: 15em;
+        width: 16em;
+        height: 16em;
         object-fit: cover;
         border-radius: 0.25em;
     }
@@ -65,10 +65,57 @@
         margin-left: 0;
         padding: 0;
         border-radius: 0;
-        margin: 0 2em;
+        margin: 0 2.5em;
         color: black;
     }
 
+    .welcome-card-text h1 {
+        font-size: 30px;
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .welcome-card-text p {
+        text-align: center;
+        margin: 0px 1em;
+        margin-bottom: 20px;
+    }
+
+    /* Intro Cards */
+    .introduction-cards {
+        width: 100%;
+        grid-column: 3/10;
+        display: grid;
+        margin-top: 0.25em;    
+        grid-template-columns: 1fr;
+    }
+
+    .intro-card-text {
+        padding: 0.25em 1.5em;
+        border-radius: 0.33em;
+        margin: 1em 0px;
+        color: white;
+        width: 100%;
+    }
+
+    #creative {
+        grid-column: 1;
+    }
+
+    #fun {
+        grid-column: 1;
+    }
+
+    #personal {
+        grid-column: 1;
+    }
+
+    #sociable {
+        grid-column: 1;
+    }
+
+    /* Projects Card */
     .projects-card section {
         visibility: hidden;
         display: none;
