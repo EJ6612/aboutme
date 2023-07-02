@@ -8,7 +8,7 @@ body {
 .main-content {
     max-width: 1400px;
     margin: 0 auto;
-    display: grid;
+    display: grid;    /*  | 1 | 2   3 | 4   5 | 6   7 | 8   9 | 10 11 | 12 */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -23,8 +23,9 @@ p {
 /* Welcome Card */
 .welcome-card {
     width: 100%;
-    grid-column: 2/12;
-    margin-top: 2em;
+    grid-column: 2/11;
+    margin-top: 2.5em;
+    margin-left: 1.25em;
 }
 
 .welcome-card-content {
@@ -51,16 +52,16 @@ p {
 .introduction-cards {
     width: 100%;
     grid-column: 2/12;
+    display: grid;
     margin-top: 2em;     /*   |                                           |     */
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .intro-card-text {
-    margin-left: 2em;
     background-color: #1B7ECC;
     padding: 0.25em 1.5em;
-    border-radius: 0.33em;   
-    margin: 1em auto;
+    border-radius: 0.33em;
+    /*margin: 1em auto;*/
     color: white;
     width: 45%;
 }
@@ -68,7 +69,7 @@ p {
 /* Projects Card (Homepage) */
 .projects-card {
     width: 100%;
-    grid-column: 3/11;
+    grid-column: 2/11;
     margin-top: 2em;
     background-color: #1E1E1E;
     color: white;
@@ -85,10 +86,10 @@ p {
 
 #projectsFrame {
     border: none;
-    background-color: white;
+    background-color: transparent;
     border-radius: 0.33em;
-    height: 500px;
-    width: 750px;
+    height: 450px;
+    width: 100%;
 }
 
 .project-button {
@@ -102,10 +103,8 @@ p {
 
 .gtp {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin: 1.25em;
+    margin: 1.25em auto;
 }
 
 .go-to-projects {
@@ -123,9 +122,11 @@ p {
     background-color: #8F3985;
 }
 
+/* Contact Me */
+
 .cm-butt-box {
     text-align: center;
-    grid-column: 5/9;
+    grid-column: 5/8;
     margin-top: 100px;
 }
 
