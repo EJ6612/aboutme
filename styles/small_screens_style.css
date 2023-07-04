@@ -43,9 +43,6 @@
     }
 
     /*Welcome Card*/
-    .welcome-card {
-        width: 100%;
-    }
 
     .welcome-card-content {
         flex-direction: column;
@@ -84,7 +81,6 @@
 
     /* Intro Cards */
     .introduction-cards {
-        width: 100%;
         grid-column: 3/10;
         display: grid;
         margin-top: 0.25em;    
@@ -123,12 +119,13 @@
 
     .cm-butt-box {
         text-align: center;
-        grid-column: 4/11;
-        margin-top: 100px;
+        grid-column: 3/11;
+        margin-top: 60px;
     }
 
     .contact-me-home {
         font-size: 1.75em;
+        padding: 1.25em;
     }
 }
 

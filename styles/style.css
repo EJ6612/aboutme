@@ -30,10 +30,10 @@ p {
 
 /* Welcome Card */
 .welcome-card {
-    width: 100%;
-    grid-column: 2/11;
+    grid-column: 2/12;
     margin-top: 2.5em;
     margin-left: 1.25em;
+    margin-right: 1.25em;
 }
 
 .welcome-card-content {
@@ -65,7 +65,6 @@ p {
 
 /* Introductions */
 .introduction-cards {
-    width: 100%;
     grid-column: 3/10;
     display: grid;
     margin-top: 2em;    
@@ -126,8 +125,7 @@ p {
 
 /* Projects Card (Homepage) */
 .projects-card {
-    width: 100%;
-    grid-column: 2/11;
+    grid-column: 2/12;
     margin-top: 2em;
     background-color: var(--accent2-color);
     color: white;
@@ -162,7 +160,7 @@ p {
 .gtp {
     display: flex;
     justify-content: center;
-    margin: 1.25em auto;
+    margin: 1.25em 0px;
 }
 
 .go-to-projects {
@@ -183,8 +181,7 @@ p {
 /* Contact Me */
 
 .cm-butt-box {
-    text-align: center;
-    grid-column: 5/8;
+    grid-column: 6/8;
     margin-top: 100px;
 }
 
@@ -196,8 +193,10 @@ p {
     border-radius: 0.33em;
     font-family: 'Segoe UI', Arial, Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 610;
-    padding: 1em;
+    padding: 2em;
     font-size: 3em;
+    display: flex;
+    justify-content: center;  
 }
 
 .contact-me-home:hover {

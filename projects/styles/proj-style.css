@@ -11,8 +11,7 @@
 }
 
 .project-card-individual {
-    grid-column: 2/11;
-    width: 100%;
+    grid-column: 2/12;
     background-color: var(--accent2-color);
     margin: 1.25em 0px;
     border-radius: 0.33em;
