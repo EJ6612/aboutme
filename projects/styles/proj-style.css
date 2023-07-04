@@ -55,18 +55,6 @@
     box-shadow: 0px 0px 15px rgb(22, 22, 22);
 }
 
-.project-links {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.project-links a img {
-    height: 60px;
-    object-fit: cover;
-    margin: 0 20px;
-}
-
 .projects-title {
     grid-column: 6;
     font-size: 24px;

@@ -71,6 +71,18 @@
         margin-top: 0px;
     }
 
+    .project-links {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-links a img {
+        height: 50px;
+        object-fit: cover;
+        margin: 0 15px;
+    }
+
     /* CSE 210 Card Specifics */    
     #cse210-title h1 {
         margin-top: 6px;
@@ -88,7 +100,7 @@
 
     /* eEq Title Specific */
     #eEq-title {
-        font-size: 30px;
+        font-size: 28px;
     }
 
 }
@@ -123,6 +135,18 @@
     .project-card-individual:hover {
         transform: scale(1.05);
         box-shadow: 0px 0px 15px rgb(22, 22, 22);
+    }
+
+    .project-links {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-links a img {
+        height: 60px;
+        object-fit: cover;
+        margin: 0 20px;
     }
 
     /* CSE 210 Card Specifics */
