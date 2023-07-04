@@ -56,8 +56,13 @@
 }
 
 .projects-title {
-    grid-column: 6;
-    font-size: 24px;
+    grid-column: 5/9;
+    font-size: 28px;
+}
+
+.projects-title h1 {
+    display: flex;
+    justify-content: center;
 }
 
 /* CSE 210 Card Specifics */
