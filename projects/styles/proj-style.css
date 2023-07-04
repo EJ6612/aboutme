@@ -6,10 +6,6 @@
     --accent2-color: #1e1e1e;
 }  
 
-.main-content {
-    margin-top: 30px;
-}
-
 .project-card-individual {
     grid-column: 2/12;
     background-color: var(--accent2-color);
@@ -17,11 +13,6 @@
     border-radius: 0.33em;
     padding: 2em;
     color: white;
-}
-
-.project-card-individual:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 15px rgb(22, 22, 22);
 }
 
 .text-left {
