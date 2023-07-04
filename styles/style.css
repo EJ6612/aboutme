@@ -8,9 +8,10 @@
 
 /* General Page */
 body {
-    background-color: white;
+    background-color: rgb(235, 235, 235);
     margin: 0;
     padding: 0;
+    margin-top: -0.55em;
 }
 
 .main-content {
