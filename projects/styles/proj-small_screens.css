@@ -86,6 +86,11 @@
         margin-top: 6px;
     }
 
+    /* eEq Title Specific */
+    #eEq-title {
+        font-size: 30px;
+    }
+
 }
 
 /* Tablet Design */
