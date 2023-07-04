@@ -70,7 +70,22 @@
         grid-row: 3;
         margin-top: 0px;
     }
-    
+
+    /* CSE 210 Card Specifics */    
+    #cse210-title h1 {
+        margin-top: 6px;
+        font-size: larger;
+    } 
+
+    #cse210-title h2 {
+        margin-top: -20px;
+    }
+
+    /* S.I. Title Specific */
+    #si-title {
+        margin-top: 6px;
+    }
+
 }
 
 /* Tablet Design */
@@ -103,6 +118,15 @@
     .project-card-individual:hover {
         transform: scale(1.05);
         box-shadow: 0px 0px 15px rgb(22, 22, 22);
+    }
+
+    /* CSE 210 Card Specifics */
+    #cse210-title h1 {
+        margin-top: 6px;
+    } 
+
+    #cse210-title h2 {
+        margin-top: -20px;
     }
 
 }
