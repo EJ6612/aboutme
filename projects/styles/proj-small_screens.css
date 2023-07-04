@@ -1,0 +1,94 @@
+/* Mobile Design */
+@media screen and (max-width: 900px) {
+
+    /* Footer */
+
+    footer {
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    footer a {
+        padding: 5px;
+    }
+
+    /* Navigation Bar */
+
+    header {
+        margin: 0.5em 0.5em;
+        grid-template-columns: auto;
+    }
+
+    .navbar-icon {
+        display: inline;
+        width: 2em;
+    }
+
+    .navbar-text {
+        display: none;
+    }
+
+    .home-link {
+        display: none;
+        visibility: hidden; 
+    }
+
+    .topnav {
+        margin-left: -2em;
+    }
+
+    .topnav a:hover {
+        background-color: white;
+        color: white;
+    }
+
+    /* This Page */
+        
+    .project-card-individual:hover {
+        transform: scale(1.04);
+    }
+
+    .card-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 5px 1fr;
+    }
+
+    .card-content .text-left {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: baseline;
+    }
+
+    .card-content .content-right {
+        grid-column: 1;
+        grid-row: 3;
+        margin-top: 0px;
+    }
+    
+}
+
+/* Tablet Design */
+@media screen and (min-width: 900px) {
+
+    header {
+        margin: 0.5em 3.25em;
+    }
+
+    .navbar-icon {
+        display: none;
+    }
+
+    .topnav a:hover {
+        background-color: #1B7ECC;
+        color: white;
+    }
+
+    /* This Page */
+
+    .card-content {
+        display: grid;
+        grid-template-columns: 1fr 20px 1fr;
+    }
+
+}

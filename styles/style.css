@@ -1,3 +1,11 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #1B7ECC;
+    --secondary-color: #C74444;
+    --accent1-color: #803985;
+    --accent2-color: #1e1e1e;
+}  
+
 /* General Page */
 body {
     background-color: white;
@@ -33,7 +41,7 @@ p {
 }
 
 .welcome-card-photo {
-    border: 1em solid #8F3985;
+    border: 1em solid var(--accent1-color);
     width: 16em;
     height: 16em;
     object-fit: cover;
@@ -43,7 +51,7 @@ p {
 
 .welcome-card-text {
     margin-left: 2em;
-    background-color: #1B7ECC;
+    background-color: var(--primary-color);
     padding: 0.75em 2em;
     border-radius: 0.33em;
     color: white;
@@ -78,7 +86,7 @@ p {
 
 #creative {
     grid-column: 2;
-    background-color: #1E1E1E;
+    background-color: var(--accent2-color);
 }
 
 #creative:hover {
@@ -88,7 +96,7 @@ p {
 
 #fun {
     grid-column: 4;
-    background-color: #8F3985;
+    background-color: var(--accent1-color);
 }
 
 #fun:hover {
@@ -98,7 +106,7 @@ p {
 
 #personal {
     grid-column: 2;
-    background-color: #1B7ECC;
+    background-color: var(--primary-color);
 }
 
 #personal:hover {
@@ -108,7 +116,7 @@ p {
 
 #sociable {
     grid-column: 4;
-    background-color: #C74444;
+    background-color: var(--secondary-color);
 }
 
 #sociable:hover {
@@ -121,7 +129,7 @@ p {
     width: 100%;
     grid-column: 2/11;
     margin-top: 2em;
-    background-color: #1E1E1E;
+    background-color: var(--accent2-color);
     color: white;
     padding: 0.25em 1.5em;
     border-radius: 0.33em;   
@@ -159,7 +167,7 @@ p {
 
 .go-to-projects {
     border-color: transparent;
-    background-color: #1B7ECC;
+    background-color: var(--primary-color);
     color: white;
     text-decoration: none;
     border-radius: 0.33em;
@@ -169,7 +177,7 @@ p {
 }
 
 .go-to-projects:hover {
-    background-color: #8F3985;
+    background-color: var(--accent1-color);
 }
 
 /* Contact Me */
@@ -182,7 +190,7 @@ p {
 
 .contact-me-home {
     border-color: transparent;
-    background-color: #8F3985;
+    background-color: var(--accent1-color);
     color: white;
     text-decoration: none;
     border-radius: 0.33em;
@@ -193,7 +201,7 @@ p {
 }
 
 .contact-me-home:hover {
-    background-color: #1B7ECC;
+    background-color: var(--primary-color);
     transform: scale(1.1);
     box-shadow: 0px 2px 15px rgb(22, 22, 22);
 }

@@ -1,0 +1,96 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #1B7ECC;
+    --secondary-color: #C74444;
+    --accent1-color: #803985;
+    --accent2-color: #1e1e1e;
+}  
+
+.main-content {
+    margin-top: 30px;
+}
+
+.project-card-individual {
+    grid-column: 2/11;
+    width: 100%;
+    background-color: var(--accent2-color);
+    margin: 1.25em 0px;
+    border-radius: 0.33em;
+    padding: 2em;
+    color: white;
+}
+
+.project-card-individual:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgb(22, 22, 22);
+}
+
+.text-left {
+    grid-column: 1;
+    align-self: center;
+}
+
+.text-left p {
+    margin: 20px 10px;
+    text-indent: 40px;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: 100px 20px 1fr;
+}
+
+.title img {
+    width: 100px;
+}
+
+.title h1 {
+    grid-column: 3;
+    align-self: center;
+}
+
+.title img {
+    border-radius: 0.33em;
+}
+
+.content-right {
+    grid-column: 3;
+    margin-top: 35px;
+    align-self: center;
+}
+
+.project-screenshot {
+    width: 100%;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 15px rgb(22, 22, 22);
+}
+
+.project-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-links a img {
+    height: 60px;
+    object-fit: cover;
+    margin: 0 20px;
+}
+
+.projects-title {
+    grid-column: 6;
+    font-size: 24px;
+}
+
+/* CSE 210 Card Specifics */
+#cse210-title {
+    grid-column: 3;
+}
+
+#cse210-title h1 {
+    margin-top: 6px;
+} 
+
+#cse210-title h2 {
+    margin-top: -20px;
+}
