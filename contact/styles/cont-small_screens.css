@@ -85,12 +85,14 @@
         grid-row: 1;
     }
 
+    .socialize {
+         margin-top: 20px;
+    }
+
     .socialize a img {
         width: 50px;
         margin: 0.25em 5px;
     }
-
-
 }
 
 /* Tablet Design */
