@@ -1,0 +1,30 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #1B7ECC;
+    --secondary-color: #C74444;
+    --accent1-color: #803985;
+    --accent2-color: #1e1e1e;
+}  
+
+.contact-card-individual {
+    display: grid;
+    background-color: var(--accent2-color);
+    margin: 1.25em 0px;
+    border-radius: 0.5em;
+    padding: 2em;
+    color: white;    
+}
+
+.socialize {
+    grid-row: 2;
+    background-color: white;
+    border-radius: 0.33em;
+    width: fit-content;
+    height: fit-content;
+    align-content: center;
+    box-shadow: 0px 0px 10px rgb(15, 15, 15);
+}
+
+.socialize a {
+    text-decoration: none;
+}

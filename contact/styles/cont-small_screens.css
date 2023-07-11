@@ -1,0 +1,148 @@
+/* Mobile Design */
+@media screen and (max-width: 900px) {
+
+    .main-content {
+        margin-top: 0px;
+    }
+
+    /* Footer */
+
+    footer {
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    footer a {
+        padding: 5px;
+    }
+
+    /* Navigation Bar */
+
+    header {
+        margin: 0.5em 0.5em;
+        grid-template-columns: auto;
+    }
+
+    .navbar-icon {
+        display: inline;
+        width: 2em;
+    }
+
+    .navbar-text {
+        display: none;
+    }
+
+    .home-link {
+        display: none;
+        visibility: hidden; 
+    }
+
+    .topnav {
+        margin-left: -2em;
+    }
+
+    .topnav a:hover {
+        background-color: white;
+        color: white;
+    }
+
+    /* This Site */
+    .main-content {
+        margin-top: 50px;
+    }
+
+    .contact-card-individual {
+        grid-column: 2/12;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.75fr 5px 0.5fr;
+        margin: 1.25em 0px;
+        border-radius: 0.5em;
+        padding: 2em;    
+        box-shadow: 0px 0px 10px rgb(26, 26, 26);    
+    }
+
+    .photo-left {
+        grid-column: 1;
+        grid-row: 1;
+        padding: 1em;
+    }
+
+    .photo-left img {
+        width: 100%;
+        border-radius: 0.33em;
+        margin: 0.5em 0;
+        box-shadow: 0px 0px 10px rgb(26, 26, 26);    
+    }
+
+    .text-right {
+        grid-column: 1;
+        grid-row: 3;
+        display: grid;
+        grid-template-rows: 200px 100px;
+    }
+    
+    .name-message {
+        grid-row: 1;
+    }
+
+    .socialize a img {
+        width: 60px;
+        margin: 0.25em 5px;
+    }
+
+
+}
+
+/* Tablet Design */
+@media screen and (min-width: 900px) {
+
+    .main-content {
+        margin-top: 60px;
+    }
+
+    header {
+        margin: 0.5em 3.25em;
+    }
+
+    .navbar-icon {
+        display: none;
+    }
+
+    .topnav a:hover {
+        background-color: #1B7ECC;
+        color: white;
+    }
+
+    .contact-card-individual {
+        grid-column: 3/11;
+        grid-template-columns: 0.75fr 30px 1fr;
+        grid-template-rows: 1fr;   
+        box-shadow: 0px 0px 15px rgb(22, 22, 22); 
+    }
+
+    .photo-left {
+        grid-column: 1;
+    }
+
+    .photo-left img {
+        width: 100%;
+        border-radius: 0.33em;
+        margin: 1em 0;
+    }
+
+    .text-right {
+        grid-column: 3;
+        display: grid;
+        grid-template-rows: 200px 100px;
+    }
+    
+    .name-message {
+        grid-row: 1;
+    }
+
+    .socialize a img {
+        width: 44px;
+        margin: 0.25em 5px;
+    }
+
+}
