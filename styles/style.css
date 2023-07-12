@@ -84,14 +84,14 @@ p {
     margin-top: -12px;
 }
 
+.intro-card-text:hover {
+    transform: scale(1.015);
+    box-shadow: 0px 2px 15px rgb(22, 22, 22);
+}
+
 #creative {
     grid-column: 2;
     background-color: var(--accent2-color);
-}
-
-#creative:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 2px 15px rgb(22, 22, 22);
 }
 
 #fun {
@@ -99,29 +99,14 @@ p {
     background-color: var(--accent1-color);
 }
 
-#fun:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 2px 15px rgb(22, 22, 22);
-}
-
 #personal {
     grid-column: 2;
     background-color: var(--primary-color);
 }
 
-#personal:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 2px 15px rgb(22, 22, 22);
-}
-
 #sociable {
     grid-column: 4;
     background-color: var(--secondary-color);
-}
-
-#sociable:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 2px 15px rgb(22, 22, 22);
 }
 
 /* Projects Card (Homepage) */

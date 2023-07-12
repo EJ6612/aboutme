@@ -10,6 +10,10 @@ header {
     z-index: 2;
 }
 
+#navbar-current {
+    color: white;
+}
+
 .topnav {
     background-color: #1E1E1E;
 }

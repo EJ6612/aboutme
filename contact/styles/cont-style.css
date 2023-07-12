@@ -28,3 +28,7 @@
 .socialize a {
     text-decoration: none;
 }
+
+#navbar-current {
+    color: white;
+}
