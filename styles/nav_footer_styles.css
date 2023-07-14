@@ -1,6 +1,6 @@
 /* NavBar */
 header {
-    background-color: #1E1E1E;
+    background-color: #1e1e1e;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
@@ -15,7 +15,7 @@ header {
 }
 
 .topnav {
-    background-color: #1E1E1E;
+    background-color: #1e1e1e00;
 }
 
 .topnav a {
