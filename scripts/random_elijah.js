@@ -1,9 +1,8 @@
 // Array of image URLs
 var imageUrls = [
-    "images/elijah/2023-easter.jpg",
-    "images/elijah/2022-trash.jpg",
-    "images/elijah/2023-fair.jpg",
-    "images/elijah/2023-fall-torch.jpg",
+    "images/elijah/2024-film.jpg",
+    "images/elijah/2024-professional.jpg",
+    "images/elijah/2024-plane.jpg",
     // Add more image URLs here
 ];
 
