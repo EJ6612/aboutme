@@ -7,9 +7,9 @@ const nextButton = document.getElementById('nextButton');
 
 // Define an array of source URLs for the iframe
 const sources = [
-  'projects/project-cards/easequations.html',
-  'projects/project-cards/cse210byui.html',
-  'projects/project-cards/silentInq.html'
+  'projects/project-cards/project1.html',
+  'projects/project-cards/project2.html',
+  'projects/project-cards/project3.html'
   // Add more URLs as needed
 ];
 
