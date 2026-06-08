@@ -1,14 +1,16 @@
   :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #1B7ECC;
+    --primary-color: #008BE2; /* Brilliant Azure */
     --secondary-color: #C74444;
     --accent1-color: #803985;
     --accent2-color: #1e1e1e;
+
+    --background-color: #0E0E0E; /* Onyx */
 }  
 
 /* General Page */
 body {
-    background-color: rgb(235, 235, 235);
+    background-color: var(--background-color);
     margin: 0;
     padding: 0;
     margin-top: -0.55em;
